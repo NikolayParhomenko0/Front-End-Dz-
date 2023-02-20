@@ -1,0 +1,68 @@
+.container {
+  max-width: 1140px;
+  margin: auto;
+  border-width: 2px;
+  border: 1rem solid;
+  border-color: rgba(22, 21, 21, 0.616);
+  padding: 15px;
+  background-color: #e0ebfe;
+}
+.first-section {
+  color: #42b2e6;
+  font-size: 24px;
+  width: 600px;
+  padding: 15px 25px;
+  margin: 0 auto;
+}
+#title {
+  text-decoration: underline;
+  color: black;
+}
+p.description {
+  color: #ce7510;
+}
+
+section,
+h1,
+p {
+  border-width: 1px;
+  border: dashed rgb(22, 212, 22);
+  border-color: rgba(14, 190, 14, 0.616);
+}
+/* section {
+  padding-left: 25px;
+  padding-right: 25px;
+} */
+.Text {
+  color: #ce7510;
+  font-size: 24px;
+  width: 600px;
+  padding: 15px 25px;
+  border-width: 1px;
+  border: 4mm ridge;
+  border-color: rgba(240, 12, 12, 0.616);
+  margin-left: auto;
+}
+.text-decoration {
+  text-decoration: line-through;
+}
+
+.text-decoration1 {
+  text-decoration-line: overline;
+}
+.Text1 {
+  color: #240d58;
+  font-size: 24px;
+  width: 600px;
+  padding: 15px 25px;
+  border-width: 1px;
+  border: thick double;
+  border-color: rgb(65, 33, 248);
+  margin-right: auto;
+}
+section > p {
+  color: rgb(4, 15, 15);
+}
+p + h4 {
+  text-decoration: line-through;
+}
