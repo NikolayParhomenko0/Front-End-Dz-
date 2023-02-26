@@ -10,4 +10,63 @@ a :hover {
 }
 img {
   max-width: 100%;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+.card {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  background: #fc8f8f;
+  color: #ffffff;
+  font-size: 64px;
+}
+.card.float-small {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background: #fc8f8f;
+  color: #ffffff;
+  font-size: 36px;
+  float: right;
+  margin: 0 0 0 15px;
+}
+.wrap {
+  width: 1000px;
+  height: 200px;
+  background: #e6e6e6;
+  margin: 50px 0 50px 50px;
+  border: 50px;
+}
+.wrap-small {
+  width: 1000px;
+  height: 200px;
+  background: #e6e6e6;
+  margin: 50px 50px;
+}
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.conteiner {
+  width: 1100px;
+  height: 800px;
+  background: #c4c4c4;
+}
+.div {
+  float: right;
+}
+.float-right1 {
+  float: left;
+}
+.div1 {
+  float: right;
+}
+.card.float-small {
+  float: left;
+}
+.left {
+  margin: 0 0 0 15px;
 }
