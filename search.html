@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fonts/font.css">
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <a href="./index.html">Головна сторінка</a>
+            <a href="./authorization.html">Авторизація</a>
+            <a href="./registration.html">Реєстрація</a>
+            <a href="./search.html">Пошук</a>
+
+        </nav>
+    </header>
+    <main class="main">
+        <section>
+            <div class="container">
+                <h1>Пошук</h1>
+                <form action="https://fom.in.ua/echo" method="post">
+                    <fieldset>
+                        <legend>Тип кузова</legend>
+                        <label>
+                            <input type="checkbox" name="bodyType" value="Універсал">
+                            Універсал
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="bodyType" value="Седан">
+                            Седан
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="bodyType" value="Позашляховик/Кросовер">
+                            Позашляховик/Кросовер
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="bodyType" value="Купе">
+                            Купе
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="bodyType" value="Хетчбек">
+                            Хетчбек
+                        </label><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Марка авто</legend>
+                        <label>
+                            <input type="checkbox" name="carBrand" value="Volkswagen">
+                            Volkswagen
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="carBrand" value="Land Rover">
+                            Land Rover
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="carBrand" value="Toyota">
+                            Toyota
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="carBrand" value="Hyundai">
+                            Hyundai
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="carBrand" value="Renault">
+                            Renault
+                        </label><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Країна виробник</legend>
+                        <label>
+                            <input type="checkbox" name="producingCountry" value="Німеччина">
+                            Німеччина
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="producingCountry" value="Англія">
+                            Англія
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="producingCountry" value="Японія">
+                            Японія
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="producingCountry" value="Корея">
+                            Корея
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="producingCountry" value="Франція">
+                            Франція
+                        </label><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Вартість</legend>
+                        <label>
+                            <input type="number" name="cost" min="5000" max="15000" step="250">
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Рік випуску</legend>
+                        <label>
+                            <input type="date" name="date">
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Тип палива</legend>
+                        <label>
+                            <input type="radio" name="fuel" value="Дизель">
+                            Дизель
+                        </label><br>
+                        <label>
+                            <input type="radio" name="fuel" value="Бензин">
+                            Бензин
+                        </label><br>
+                        <label>
+                            <input type="radio" name="fuel" value="Електро">
+                            Електро
+                        </label><br>
+                        <label>
+                            <input type="radio" name="fuel" value="Гібрид">
+                            Гібрид
+                        </label><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Тип коробки передач</legend>
+
+                        <label>
+                            <input type="radio" name="transmission" value=" Автомат">
+                            Автомат
+                        </label><br>
+
+                        <label>
+                            <input type="radio" name="transmission" value="Ручна/Механіка">
+                            Ручна/Механіка
+                        </label><br>
+                        <label>
+                            <input type="radio" name="transmission" value="Типтронік">
+                            Типтронік
+                        </label><br>
+                        <label>
+                            <input type="radio" name="transmission" value="Робот">
+                            Робот
+                        </label><br>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Стан</legend>
+                        <label>
+                            <input type="checkbox" name="state" value="Бита">
+                            Бита
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="state" value="У кредиті">
+                            У кредиті
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="state" value="Нерозмитнена">
+                            Нерозмитнена
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="state" value="Пригнана">
+                            Пригнана
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="state" value="Конфіскат">
+                            Конфіскат
+                        </label><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Колір</legend>
+                        <label>
+                            <input type="color">
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Комфорт</legend>
+                        <label>
+                            <input type="checkbox" name="comfort" value="Запасне колесо">
+                            Запасне колесо
+                        </label> <br>
+                        <label>
+                            <input type="checkbox" name="comfort" value="Регулювання керма">
+                            Регулювання керма
+                        </label> <br>
+                        <label>
+                            <input type="checkbox" name="comfort" value="Підсилювач керма">
+                            Підсилювач керма
+                        </label> <br>
+                        <label>
+                            <input type="checkbox" name="comfort" value="Кондиціонер">
+                            Кондиціонер
+                        </label> <br>
+                        <label>
+                            <input type="checkbox" name="comfort" value="Електросклопідйомнки">
+                            Електросклопідйомники
+                        </label> <br>
+                    </fieldset>
+                    <button>Send</button>
+
+
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>

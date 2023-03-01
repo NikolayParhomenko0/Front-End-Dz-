@@ -11,3 +11,24 @@ a :hover {
 img {
   max-width: 100%;
 }
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #252525;
+}
+.photo {
+  width: 1400px;
+  height: 800px;
+  border: 1px solid #000000;
+  display: block;
+  margin: 0 auto;
+}

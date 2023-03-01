@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fonts/font.css">
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <a href="./index.html">Головна сторінка</a>
+            <a href="./authorization.html">Авторизація</a>
+            <a href="./registration.html">Реєстрація</a>
+            <a href="./search.html">Пошук</a>
+
+        </nav>
+    </header>
+    <main class="main">
+        <section>
+            <div class="container">
+                <h1>Авторизація</h1>
+                <form action="https://fom.in.ua/echo" method="post">
+                    <fieldset>
+                        <legend>Вхід на сайт</legend>
+                        <p>
+                            <label for="firstName">Email</label>
+                            <input id="firstName" name="firstName" placeholder="Enter your name" required type="email">
+                        </p>
+                        <label>
+                            <span>Пароль</span>
+                            <input type="password" placeholder="Enter your password" required>
+                        </label>
+                        <button>Send</button>
+                        <p>
+                            <label>Запам'ятати пароль
+                                <input type="checkbox" name="remember">
+                            </label>
+                        </p>
+                    </fieldset>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
