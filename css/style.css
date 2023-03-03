@@ -11,3 +11,30 @@ a :hover {
 img {
   max-width: 100%;
 }
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+table,
+div {
+  border: 1px solid;
+  padding: 5px;
+}
+td,
+th {
+  padding: 0.25rem 0.5rem;
+}
+.float-left {
+  float: left;
+  margin-right: 10px;
+}
+.float-right {
+  float: right;
+}
+h2 {
+  text-align: center;
+  padding-top: 50px;
+}
