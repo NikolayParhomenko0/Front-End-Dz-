@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 a,
 a :hover {
@@ -10,4 +10,124 @@ a :hover {
 }
 img {
   max-width: 100%;
+}
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #727272;
+  line-height: 1.625;
+}
+.container {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.nav-color {
+  color: #34547a;
+  padding-left: 399px;
+}
+a,
+nav {
+  padding-top: 79px;
+  padding-right: 42px;
+}
+h1 {
+  padding-left: 399px;
+  padding-top: 257px;
+  font-size: 48px;
+  line-height: 1.625;
+  font-weight: 500;
+  color: #000000;
+}
+h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  padding-top: 112px;
+  color: #000000;
+}
+h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+  width: 540px;
+  height: 67px;
+  padding-left: 400px;
+}
+header {
+  width: 1920px;
+  height: 700px;
+  left: 0px;
+  top: 0px;
+  background: #eeeff1;
+}
+p {
+  width: 540px;
+  padding-left: 400px;
+}
+b {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.button {
+  width: 225px;
+  height: 65px;
+  left: 399px;
+  top: 494px;
+  background: #34547a;
+}
+footer {
+  width: 1920px;
+  height: 151px;
+  left: 0px;
+  top: 2313px;
+  background: #34547a;
+}
+.footer {
+  color: #ffffff;
+}
+
+.about-title {
+  padding-top: 112px;
+  padding-bottom: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+}
+.about-par {
+  width: 540px;
+  height: 67px;
+  margin: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+.rectangle {
+  width: 1920px;
+  height: 151px;
+  left: 0px;
+  top: 2313px;
+  background: #34547a;
+}
+.card {
+  width: 141px;
+  height: 50px;
+  left: 409px;
+  top: 1159px;
 }
