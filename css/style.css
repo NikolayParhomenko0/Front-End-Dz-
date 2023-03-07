@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
 }
 a,
 a :hover {
@@ -17,13 +16,13 @@ html {
   font-weight: 400;
   color: #727272;
   line-height: 1.625;
+  max-width: 1920px;
+  max-height: 2464px;
 }
 .container {
-  max-width: 1920px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  max-width: 1110px;
+  max-width: 100%;
+  background: #eeeff1;
 }
 .nav-color {
   color: #34547a;
@@ -34,22 +33,107 @@ nav {
   padding-top: 79px;
   padding-right: 42px;
 }
-h1 {
-  padding-left: 399px;
-  padding-top: 257px;
-  font-size: 48px;
-  line-height: 1.625;
+.title {
+  width: 541px;
+  height: 45px;
   font-weight: 500;
+  font-size: 48px;
+  line-height: 79px;
   color: #000000;
+  padding-top: 151px;
+  padding-right: 980px;
+  padding-left: 399px;
+  padding-bottom: 60px;
 }
-h2 {
-  font-style: normal;
+.title-text {
+  line-height: 26px;
+  padding-left: 400px;
+  padding-bottom: 84px;
+  width: 540px;
+  height: 67px;
+}
+.button {
+  width: 225px;
+  height: 65px;
+  margin-left: 399px;
+  background: #34547a;
+}
+b {
+  width: 143px;
+  height: 26px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+.about-title {
   font-weight: 500;
   font-size: 32px;
   line-height: 38px;
   text-align: center;
-  padding-top: 112px;
   color: #000000;
+  padding-top: 112px;
+}
+.about-par {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  width: 540px;
+  height: 67px;
+  padding-left: 690px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.container-centr {
+  width: 1920px;
+  height: 250px;
+  background: #34547a;
+}
+.card1 {
+  width: 141px;
+  height: 50px;
+  float: left;
+  margin-left: 409px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.card {
+  width: 141px;
+  height: 50px;
+  float: left;
+  padding-left: 48px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.card-text {
+  width: 71px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+  float: right;
+}
+.work {
+  width: 1920px;
+  height: 1004px;
+}
+iframe {
+  width: 1110px;
+  height: 600px;
+  margin-left: 405px;
+}
+
+footer {
+  width: 1920px;
+  height: 151px;
+  background: #34547a;
 }
 h3 {
   font-style: normal;
@@ -59,75 +143,9 @@ h3 {
   color: #ffffff;
   width: 540px;
   height: 67px;
-  padding-left: 400px;
+  padding-top: 50px;
+  padding-left: 406px;
 }
-header {
-  width: 1920px;
-  height: 700px;
-  left: 0px;
-  top: 0px;
-  background: #eeeff1;
-}
-p {
-  width: 540px;
-  padding-left: 400px;
-}
-b {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.1em;
-  color: #ffffff;
-}
-.button {
-  width: 225px;
-  height: 65px;
-  left: 399px;
-  top: 494px;
-  background: #34547a;
-}
-footer {
-  width: 1920px;
-  height: 151px;
-  left: 0px;
-  top: 2313px;
-  background: #34547a;
-}
-.footer {
-  color: #ffffff;
-}
-
-.about-title {
-  padding-top: 112px;
-  padding-bottom: 50px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 38px;
-  text-align: center;
-}
-.about-par {
-  width: 540px;
-  height: 67px;
-  margin: auto;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-}
-.rectangle {
-  width: 1920px;
-  height: 151px;
-  left: 0px;
-  top: 2313px;
-  background: #34547a;
-}
-.card {
-  width: 141px;
-  height: 50px;
-  left: 409px;
-  top: 1159px;
+.footer-text {
+  padding-left: 406px;
 }
