@@ -1,8 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
+
 a,
 a :hover {
   text-decoration: none;
@@ -10,4 +10,148 @@ a :hover {
 }
 img {
   max-width: 100%;
+}
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #727272;
+  line-height: 1.625;
+  max-width: 1920px;
+  max-height: 2464px;
+}
+.container {
+  width: 1920px;
+  width: 100%;
+  background: #eeeff1;
+  padding-bottom: 140px;
+}
+.nav-color {
+  color: #34547a;
+  padding-left: 399px;
+}
+a,
+nav {
+  padding-top: 79px;
+  padding-right: 42px;
+}
+.title {
+  width: 541px;
+  height: 45px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 79px;
+  color: #000000;
+  padding-top: 151px;
+  padding-right: 980px;
+  padding-left: 399px;
+  padding-bottom: 60px;
+}
+.title-text {
+  line-height: 26px;
+  padding-left: 400px;
+  padding-bottom: 84px;
+  width: 540px;
+  height: 67px;
+}
+.button {
+  width: 225px;
+  height: 65px;
+  margin-left: 399px;
+  background: #34547a;
+  padding-top: 20px;
+  padding-left: 41px;
+}
+.button-text {
+  width: 143px;
+  height: 26px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+.about-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  padding-top: 112px;
+}
+.about-par {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  width: 540px;
+  height: 67px;
+  padding-left: 690px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.container-centr {
+  width: 1920px;
+  height: 250px;
+  background: #34547a;
+}
+.card1 {
+  width: 141px;
+  height: 50px;
+  float: left;
+  margin-left: 409px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.card {
+  width: 141px;
+  height: 50px;
+  float: left;
+  padding-left: 48px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.card-text {
+  width: 71px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+  float: right;
+  display: inline-flex;
+}
+.work {
+  width: 1920px;
+  height: 1004px;
+}
+iframe {
+  width: 1110px;
+  height: 600px;
+  margin-left: 405px;
+}
+
+footer {
+  width: 1920px;
+  height: 151px;
+  background: #34547a;
+}
+.footer-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+  width: 540px;
+  height: 67px;
+  padding-top: 50px;
+  padding-left: 406px;
+}
+.footer-text {
+  padding-left: 406px;
+  color: #ffffff;
 }
