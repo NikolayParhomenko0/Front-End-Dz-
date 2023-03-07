@@ -135,7 +135,7 @@ footer {
   height: 151px;
   background: #34547a;
 }
-h3 {
+.footer-title {
   font-style: normal;
   font-weight: 500;
   font-size: 21px;
