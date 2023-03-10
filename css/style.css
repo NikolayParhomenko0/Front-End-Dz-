@@ -86,7 +86,7 @@ body {
 
 #menu a {
   background: #161414;
-  color: #cbcbcb;
+  color: #faf2f2;
   padding: 0 20px;
 }
 #menu ul {
@@ -96,7 +96,7 @@ body {
 #menu ul ul {
   border-top: 4px solid #2a75d2;
   text-transform: none;
-  min-width: 190px;
+  min-width: 200px;
 }
 #menu ul ul a {
   background: #1b9bff;
@@ -133,7 +133,7 @@ body {
   border-radius: 0 0 0 3px;
 }
 
-#menu ul ul li.has-sub > a:after {
+#menu ul ul li.product > a:after {
   content: "+";
   position: absolute;
   top: 50%;
@@ -146,14 +146,7 @@ body {
   background: #2a75d2;
   color: #fff;
 }
-#menu ul li.has-sub > a:after {
+#menu ul li.product > a:after {
   content: "+";
   margin-left: 5px;
-}
-#menu ul li.last ul {
-  left: auto;
-  right: 0;
-}
-#menu ul li.last ul ul {
-  left: auto;
 }
