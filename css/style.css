@@ -7,7 +7,6 @@
 .bg-color {
   background-color: #34547a;
   color: #fff;
-  margin-bottom: 141px;
 }
 
 .color-container {
@@ -46,14 +45,18 @@ nav {
   margin-bottom: 65px;
 }
 .container-butom {
-  width: 225px;
-  height: 65px;
+  margin-bottom: 130px;
 }
 
-.span-text {
+.button {
+  width: 225px;
+  height: 65px;
+  border: none;
+}
+.button-text {
   text-align: center;
-  margin-top: 20px;
-  margin-left: 40px;
+  letter-spacing: 0.1em;
+  line-height: 1.625;
 }
 /* ------------------------------ */
 .centr {
@@ -68,7 +71,7 @@ nav {
   max-width: 540px;
 }
 .container-about {
-  padding-top: 110px;
+  margin-top: 110px;
 }
 
 .about-par {
@@ -86,11 +89,16 @@ nav {
   margin-right: 40px;
 }
 .card-text {
-  float: right;
   padding-left: 20px;
+  display: inline-flex;
 }
-.card-text1 {
-  float: right;
+.about-title1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
 }
 
 iframe {
@@ -99,7 +107,7 @@ iframe {
   margin-bottom: 100px;
 }
 .wraper-footer {
-  height: 151px;
+  padding-bottom: 50px;
 }
 .footer-text {
   margin-top: 50px;
