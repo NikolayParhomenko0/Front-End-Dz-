@@ -1,3 +1,4 @@
+@import url("./basic.css");
 * {
   margin: 0;
   padding: 0;
@@ -10,4 +11,129 @@ a :hover {
 }
 img {
   max-width: 100%;
+}
+.gap-20 {
+  gap: 20px;
+}
+.gap-40px {
+  gap: 40px;
+}
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.justify-end {
+  justify-content: end;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.bg-header {
+  background: #e3ebf1;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.up-line {
+  border-bottom: 1px solid rgba(83, 109, 122, 0.29);
+}
+.logo {
+  height: 55px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.nav-link {
+  margin-top: 35px;
+}
+.span {
+  margin-top: 35px;
+  margin-right: 10px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.main {
+  margin: 60px 0 100px;
+}
+.template {
+  height: 490px;
+  background: #e3ebf1;
+}
+.template-container {
+  padding: 50px;
+  margin-bottom: 80px;
+}
+.template-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.template-section {
+  width: 50%;
+}
+.template-subtitle {
+  color: #10843f;
+}
+.template-title {
+  font-size: 47px;
+  line-height: 52px;
+  color: #1d2f38;
+  margin-bottom: 20px;
+}
+.template-text span {
+  font-weight: 700;
+}
+.template-text {
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 14px;
+}
+.template-botton {
+  position: relative;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 15px;
+  background-color: #17a550;
+  border-radius: 5px;
+}
+.color-text {
+  color: #ffffff;
+}
+/* -------------------------------------------------------------------------------------------------------------------------- */
+.blog-title {
+  font-family: "Bitter", sans-serif;
+  font-size: 38px;
+  line-height: 40px;
+  color: #1d2f38;
+  margin-bottom: 30px;
+  margin-top: 80px;
+}
+.blog-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+.blog-bigcard {
+  display: inline-block;
+  max-width: 555px;
+  margin-right: 40px;
+}
+.blog-t {
+  font-family: "Bitter", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #1d2f38;
+  margin-bottom: 13px;
+}
+.blog-card {
+  margin-bottom: 20px;
 }
