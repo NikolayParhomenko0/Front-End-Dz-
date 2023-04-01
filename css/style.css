@@ -1,13 +1,427 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url(./basic.css);
+/*/-----------------------------------------------------------------------------------------//*/
+.c-regular {
+  color: var(--color-regular);
 }
-a,
-a :hover {
-  text-decoration: none;
-  color: inherit;
+.c-alt {
+  color: var(--color-alt);
 }
-img {
-  max-width: 100%;
+.c-soft {
+  color: var(--color-soft);
+}
+.c-accent {
+  color: var(--color-accent);
+}
+.c-blue-regular {
+  color: var(--color-blue-regular);
+}
+.c-blue-hover {
+  color: var(--color-blue-hover);
+}
+.bg-gray-bg {
+  background-color: var(--color-gray-bg);
+}
+.bg-gray-bg-alt {
+  background-color: var(--color-gray-bg-alt);
+}
+.c--gray-text {
+  color: var(--color-gray-text);
+}
+.c-gray-separator {
+  color: var(--color-gray-separator);
+}
+.c-gradient-regular {
+  color: var(--color-gradient-regular);
+}
+.c-gradient-soft {
+  color: var(--color-gradient-soft);
+}
+.c-gradient-red {
+  color: var(--color-gradient-red);
+}
+.c-gradient-supersoft {
+  color: var(--color-gradient-supersoft);
+}
+.c-gradient-redtext {
+  color: var(--color-gradient-redtext);
+}
+
+/*/ ----------------------------------------------------------------------------------------------///*/
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-end {
+  justify-content: end;
+}
+/*/-----------------------------------------------------------------------------------//*/
+.gap-6 {
+  gap: 6px;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-14 {
+  gap: 14px;
+}
+.gap-16 {
+  gap: 16px;
+}
+.gap-18 {
+  gap: 18px;
+}
+
+/*/ ------------------------------------------------------------------------------------------//*/
+.btn {
+  display: inline-block;
+  text-align: center;
+  width: 126px;
+  height: 42px;
+  letter-spacing: 0.05em;
+  border: 1px solid #161513;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  border-radius: 0px;
+  color: black;
+}
+.btn-default {
+  border-color: var(--color-black);
+  color: var(--text-color);
+}
+.btn.btn-black {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+.btn.btn-red {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  border: none;
+}
+/*/ -------------------------------------------------------------------------/*/
+.hero {
+  font-family: "Montserrat";
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+}
+.h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.h3caps {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 1px;
+}
+.h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.p-small {
+  color: #b3b3ba;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.un-list {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.h3,
+.h2,
+.h3caps,
+.h4 {
+  color: var(--color-regular);
+  font-family: "Montserrat";
+}
+.ol-list,
+.un-list {
+  font-family: "Montserrat";
+  list-style-type: color var(--color-accent);
+  color: #000000;
+}
+.link,
+.link-hover,
+.map {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.link {
+  color: var(--color-blue-regular);
+}
+.link-hover {
+  color: var(--color-blue-hover);
+}
+
+/*/ ---------------------------------------------------------------------------------//*/
+.header-content {
+  padding-top: 55px;
+}
+.header-tel {
+  font-weight: 700;
+  color: var(--color-gray-text);
+}
+.grid-nav,
+.nav-header-light {
+  color: var(--color-gray-text);
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 1px;
+}
+.logo-team {
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+  color: var(--color-regular);
+}
+.Slash {
+  margin-left: 4px;
+  margin-right: 4px;
+  height: 46.99999786316812px;
+  width: 21.000000096858116px;
+}
+.header-menu,
+.hover-menu {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--color-blue-regular);
+}
+.lang-check:checked + span {
+  background-color: var(--color-accent);
+  color: #ffffff;
+  border-radius: 3px;
+}
+.lang-check {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.hover-menu:hover {
+  border-bottom: 2px solid;
+}
+.hover-menu:active {
+  color: var(--color-accent);
+  border-bottom: 2px solid;
+}
+.hover-menu {
+  border-bottom: 2px solid transparent;
+}
+.facebook-header:hover > path {
+  fill: var(--color-accent);
+}
+.facebook:hover > path {
+  fill: var(--color-accent);
+}
+.grid-nav {
+  grid-column: 2/4;
+  justify-content: flex-end;
+}
+.header-menu {
+  grid-column: 2/4;
+  justify-content: flex-end;
+}
+
+.grid-head {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-logo {
+  gap: 4px;
+  grid-row: 1/3;
+}
+
+/*/ --------------------------------------------------------------------------------/*/
+.team-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  margin-top: 60px;
+}
+
+.team-card img {
+  border-radius: 12px;
+}
+.point-bg {
+  width: 32px;
+  height: 32px;
+  background-color: var(--color-gray-bg);
+  border-radius: 70px;
+  align-self: flex-end;
+}
+.point {
+  height: 17px;
+  width: 14px;
+}
+.team-card-content :hover .h4 {
+  color: var(--color-accent);
+  transition: all 0.2s linear;
+}
+
+.team-card-content :hover .point > path {
+  stroke: var(--color-accent);
+  transition: all 0.2s linear;
+}
+
+.team-card-wrap {
+  padding-top: 15px;
+}
+
+/*/ --------------------------------------------------------------------------------------/*/
+
+.dot {
+  height: 6px;
+  width: 6px;
+}
+.team-footer {
+  margin-top: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.team-footer-left,
+.team-footer-right {
+  margin-bottom: 21px;
+}
+.footer-tel {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--color-alt);
+}
+.footer-mail {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--color-blue-regular);
+}
+
+.round-face {
+  height: 32px;
+  width: 32px;
+  background-color: #f5f5fa;
+  border-radius: 50px;
+  color: var(--color-blue-regular);
+}
+.grid-footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.rights {
+  font-family: "Montserrat";
+  color: var(--color-gray-text);
+  line-height: 1.25;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: flex-end;
+}
+.on-map:hover {
+  color: var(--color-blue-regular);
+}
+.footer-mail:hover {
+  color: var(--color-accent);
+}
+/*/ -----------------------------------------------------------/*/
+
+.hide-check {
+  position: absolute;
+  width: 30px;
+  top: 87px;
+  right: 10px;
+  height: 30px;
+  z-index: 5;
+  opacity: 0;
+}
+
+.burger {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 87px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+}
+
+.burger span:first-child {
+  top: 4px;
+}
+.burger span:nth-child(2),
+.burger span:nth-child(3) {
+  top: 14px;
+}
+.burger span:last-child {
+  top: 24px;
+}
+
+.hide-check:checked + .burger span:first-child {
+  top: -4px;
+  opacity: 0;
+}
+.hide-check:checked + .burger span:nth-child(2) {
+  transform: rotate(45deg);
+}
+.hide-check:checked + .burger span:nth-child(3) {
+  top: 14px;
+  transform: rotate(-45deg);
+}
+.hide-check:checked + .burger span:last-child {
+  top: 34px;
+  opacity: 0;
+}
+.hide-check:checked ~ .header-menu {
+  transform: translateY(0);
+  margin: 8px;
+  border-radius: 12px 12px 0px 0px;
+}
+.hide-check:checked ~ .burger span {
+  background-color: rgba(236, 111, 93, 1);
 }
