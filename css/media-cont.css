@@ -68,7 +68,7 @@
 
 @media (max-width: 590px) {
   :root {
-    --container-small-width: 535px;
+    --container-small-width: 538px;
     --basic-space: 30px;
   }
   .form-contact {
